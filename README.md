@@ -42,19 +42,19 @@ Superstore Sales Dataset
 
 ### Sales by Category
 
-![Sales by Category](images/sales_by_category.png)
+![Sales by Category](images/Ventas_por_Categoria_Barras.png)
 
 ### Top Products
 
-![Top Products](images/top_products.png)
+![Top Products](images/Top_10_ventas_por_producto_Barras.png)
 
 ### Sales by Region
 
-![Sales by Region](images/sales_by_region.png)
+![Sales by Region](images/Ventas_por_Region_Pay.png)
 
 ### Monthly Sales Trend
 
-![Monthly Trend](images/monthly_trend.png)
+![Monthly Trend](images/Tendencia_de_Ventas_por_Mes_Lineal.png)
 
 ---
 
