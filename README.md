@@ -89,5 +89,16 @@ This dashboard includes:
 ![Power BI Dashboard](images/kpi_cards.png)
 
 ![Power BI Dashboard](images/sales_trend.png)
+
+## Advanced SQL Analysis
+
+This project includes advanced SQL techniques such as:
+
+- CTEs
+- Window Functions
+- Rankings
+- CASE Statements
+- Profitability Analysis
+- Running Totals
 - Predictive analytics
 - Customer segmentation
