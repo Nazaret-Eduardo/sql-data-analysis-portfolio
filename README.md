@@ -86,7 +86,7 @@ This dashboard includes:
 
 ![Power BI Dashboard](images/powerbi_dashboard.png)
 
-![Power BI Dashboard](images/kpis_card.png)
+![Power BI Dashboard](images/kpi_cards.png)
 
 ![Power BI Dashboard](images/sales_trend.png)
 - Predictive analytics
