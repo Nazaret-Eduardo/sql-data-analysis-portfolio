@@ -71,5 +71,23 @@ Superstore Sales Dataset
 
 - Power BI dashboard
 - Advanced SQL queries
+
+- ## Power BI Dashboard
+
+This dashboard includes:
+
+- Sales KPIs
+- Profit analysis
+- Regional performance
+- Monthly trends
+- Interactive slicers
+
+### Dashboard Preview
+
+![Power BI Dashboard](images/powerbi_dashboard.png)
+
+![Power BI Dashboard](images/kpis_card.png)
+
+![Power BI Dashboard](images/sales_trend.png)
 - Predictive analytics
 - Customer segmentation
