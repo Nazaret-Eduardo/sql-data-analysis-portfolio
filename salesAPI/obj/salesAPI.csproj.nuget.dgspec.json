@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Portafolio\\sql-data-analysis-portfolio\\SalesAPI\\salesAPI.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Portafolio\\sql-data-analysis-portfolio\\salesapi\\salesAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Portafolio\\sql-data-analysis-portfolio\\SalesAPI\\salesAPI.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Portafolio\\sql-data-analysis-portfolio\\salesapi\\salesAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Portafolio\\sql-data-analysis-portfolio\\SalesAPI\\salesAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Portafolio\\sql-data-analysis-portfolio\\salesapi\\salesAPI.csproj",
         "projectName": "salesAPI",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Portafolio\\sql-data-analysis-portfolio\\SalesAPI\\salesAPI.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Portafolio\\sql-data-analysis-portfolio\\salesapi\\salesAPI.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Portafolio\\sql-data-analysis-portfolio\\SalesAPI\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Portafolio\\sql-data-analysis-portfolio\\salesapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -49,6 +49,20 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

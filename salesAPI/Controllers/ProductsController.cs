@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SalesApi.Models;
+using SalesAPI.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace SalesAPI.Controllers;
 
@@ -7,6 +9,22 @@ namespace SalesAPI.Controllers;
 [Route("api/[controller]")]
 public class ProductsController : ControllerBase
 {
+    private readonly AppDbContext _context;
+
+    public ProductsController(AppDbContext context)
+    {
+        _context = context;
+    }
+
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+    {
+        var products = await _context.Products.ToListAsync();
+
+        return Ok(products);
+    }
+
+    /*
     [HttpGet]
     public ActionResult<IEnumerable<Product>> GetProducts()
     {
@@ -44,4 +62,5 @@ public class ProductsController : ControllerBase
         return Ok(products);
 
     }
+    */
 }
